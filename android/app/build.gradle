@@ -128,7 +128,7 @@ crashlytics {
 }
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdkVersion 29
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -155,17 +155,17 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file('keystore/android-debug')
-            storePassword 'android'
-            keyAlias 'android-debug'
-            keyPassword 'android'
-        }
+            storeFile file('keystore/keystore.jks')
+            storePassword 'fidubit123'
+            keyAlias 'key0'
+            keyPassword 'fidubit123'
+       }
         release {
-            storeFile file('keystore/android-debug')
-            storePassword 'android'
-            keyAlias 'android-debug'
-            keyPassword 'android'
-        }
+            storeFile file('keystore/keystore.jks')
+            storePassword 'fidubit123'
+            keyAlias 'key0'
+            keyPassword 'fidubit123'
+       }
     }
     buildTypes {
         debug {
@@ -196,6 +196,7 @@ android {
 }
 
 dependencies {
+    implementation project(':@cybavo_react-native-wallet-service')
     implementation project(':react-native-twitter-signin')
     implementation project(':@react-native-community_cameraroll')
     implementation fileTree(dir: "libs", include: ["*.jar"])

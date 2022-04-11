@@ -1,13 +1,13 @@
 {
   "apiCode": {
-    "main": {"ios": "<MAIN_API_CODE_IOS>", "android": "<MAIN_API_CODE_ANDROID>"},
-    "test": {"ios": "<TEST_API_CODE_IOS>", "android": "<TEST_API_CODE_ANDROID>"}
+    "main": {"ios": "mnNZDnDd0eP-q4XGkwhaQQ", "android": "ST4pHXrsuksJ3o9ViLaITQ"},
+    "test": {"ios": "mnNZDnDd0eP-q4XGkwhaQQ", "android": "ST4pHXrsuksJ3o9ViLaITQ"}
   },
   "endpoint": {
-    "main": "<MAIN_ENDPOINT>",
-    "test":  "<TEST_END_POINT>"
+    "main": "https://mvault.cybavo.com/v1/mw/",
+    "test":  "https://mvault.cybavo.com/v1/mw/"
   },
-  "GOOGLE_SIGN_IN_WEB_CLI_ID": "<MY_GOOGLE_SIGN_IN_WEB_CLI_ID>",
+  "GOOGLE_SIGN_IN_WEB_CLI_ID": "480003759927-v5qk4qbn8vnklehb34tged3f144d94gq.apps.googleusercontent.com",
   "uniqueIds": ["<UNIQUE_IDS>"],
   "TWITTER_CONSUMER_KEY": "<MY_TWITTER_CONSUMER_KEY>",
   "TWITTER_CONSUMER_SECRET": "<My_TWITTER_CONSUMER_SECRET>",

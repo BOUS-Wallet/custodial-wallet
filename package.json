@@ -15,7 +15,7 @@
     ]
   },
   "dependencies": {
-    "@cybavo/react-native-wallet-service": "^1.2.184",
+    "@cybavo/react-native-wallet-service": "^1.2.206",
     "@invertase/react-native-apple-authentication": "1.0.0",
     "@react-native-community/async-storage": "^1.7.0",
     "@react-native-community/cameraroll": "^1.5.2",
@@ -97,6 +97,7 @@
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
+    "rn-nodeify": "^10.3.0",
     "stream-browserify": "^1.0.0",
     "string_decoder": "^0.10.31",
     "timers-browserify": "^1.4.2",

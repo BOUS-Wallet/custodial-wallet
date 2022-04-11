@@ -14,6 +14,7 @@ import androidx.annotation.Nullable;
 
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.cybavo.reactnative.wallet.service.CybavoWalletServicePackage;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
