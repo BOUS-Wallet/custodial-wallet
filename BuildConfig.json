@@ -1,11 +1,11 @@
 {
   "apiCode": {
-    "main": {"ios": "mnNZDnDd0eP-q4XGkwhaQQ", "android": "ST4pHXrsuksJ3o9ViLaITQ"},
-    "test": {"ios": "mnNZDnDd0eP-q4XGkwhaQQ", "android": "ST4pHXrsuksJ3o9ViLaITQ"}
+    "main": {"ios": "Fbi6nZQPsfoD_uca3UWl3Q", "android": "Fbi6nZQPsfoD_uca3UWl3Q"},
+    "test": {"ios": "Fbi6nZQPsfoD_uca3UWl3Q", "android": "Fbi6nZQPsfoD_uca3UWl3Q"}
   },
   "endpoint": {
-    "main": "https://mvault.cybavo.com/v1/mw/",
-    "test":  "https://mvault.cybavo.com/v1/mw/"
+    "main": "https://vault.fidubit.global/v1/mw/",
+    "test":  "https://vault.fidubit.global/v1/mw/"
   },
   "GOOGLE_SIGN_IN_WEB_CLI_ID": "480003759927-v5qk4qbn8vnklehb34tged3f144d94gq.apps.googleusercontent.com",
   "uniqueIds": ["<UNIQUE_IDS>"],
