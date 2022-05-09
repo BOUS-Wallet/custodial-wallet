@@ -1650,7 +1650,7 @@ export function getTopRightMarkerSvg() {
             <g>
                 <g>
                     <g>
-                        <path fill="#24bcd0" fill-rule="nonzero" d="M2 0L28 0 28 26z" transform="translate(-331 -194) translate(0 166) translate(16 28) translate(315)"/>
+                        <path fill="#f7b603" fill-rule="nonzero" d="M2 0L28 0 28 26z" transform="translate(-331 -194) translate(0 166) translate(16 28) translate(315)"/>
                         <g stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                             <path d="M0.6 3.478L2.82 5.8 7.6 0.8" transform="translate(-331 -194) translate(0 166) translate(16 28) translate(315) translate(16 4)"/>
                         </g>

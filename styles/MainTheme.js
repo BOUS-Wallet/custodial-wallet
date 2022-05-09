@@ -154,9 +154,9 @@ export const endColors = {
 
 export const Theme = {
   colors: {
-    primary: '#24bcd0',
-    primaryDisabled: 'rgba(36,188,208,0.4)',
-    primary16: 'rgba(36,188,208,0.16)',
+    primary: '#f7b603',
+    primaryDisabled: 'rgba(201,154,24,0.4)',
+    primary16: 'rgba(201,154,24,0.16)',
     background: '#09102a',
     backgroundPressed: 'rgba(255,255,255,0.04)',
     filterBgColor: 'rgba(255,255,255,0.08)',
