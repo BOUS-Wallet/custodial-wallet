@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BOUS Wallet</string>
+    <string name="app_name">TIPS Wallet</string>
     <string name="com.crashlytics.useFirebaseAppId">true</string>
 <!--    <string name="com.crashlytics.android.build_id">RANDOM_UUID444</string>-->
     <string name="facebook_app_id" translatable="false">MY_FACEBOOK_APP_ID</string>

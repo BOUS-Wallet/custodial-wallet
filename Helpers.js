@@ -1457,7 +1457,7 @@ export function getLoginBgSvg(width, height) {
         <g>
             <g>
                 <g transform="translate(0 1) translate(-101 -2) translate(0 .383)">
-                    <use fill="#09102A" fill-rule="nonzero" xlink:href="#o6ul1opjja"/>
+                    <use fill="#132666" fill-rule="nonzero" xlink:href="#o6ul1opjja"/>
                     <path fill="url(#lzto6nboub)" fill-rule="nonzero" d="M165.663 2L330 2 164.337 ${height} 0 ${height}z"/>
                     <path fill="url(#cjk753z2vc)" fill-rule="nonzero" d="M276.663 2L633.663 1.617 468 ${height} 111 ${height}z"/>
                     <path fill="url(#cjk753z2vc)" fill-rule="nonzero" d="M492.663 2L849.663 1.617 684 ${height} 327 ${height}z"/>

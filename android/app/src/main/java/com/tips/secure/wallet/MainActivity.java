@@ -1,4 +1,4 @@
-package com.cybavo.btc.wallet;
+package com.tips.secure.wallet;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -20,7 +20,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "CybavoWallet";
+    return "TIPSWallet";
   }
 
   @Override

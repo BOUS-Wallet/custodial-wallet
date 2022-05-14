@@ -1,4 +1,4 @@
-package com.cybavo.btc.wallet;
+package com.tips.secure.wallet;
 
 import android.app.Activity;
 import android.content.Context;

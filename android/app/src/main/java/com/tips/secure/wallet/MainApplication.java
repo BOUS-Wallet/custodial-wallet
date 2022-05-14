@@ -1,4 +1,4 @@
-package com.cybavo.btc.wallet;
+package com.tips.secure.wallet;
 
 import com.android.billingclient.api.BillingClient;
 import com.android.billingclient.api.BillingResult;

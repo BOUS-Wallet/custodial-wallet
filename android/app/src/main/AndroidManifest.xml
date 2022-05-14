@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.cybavo.btc.wallet">
+    package="com.tips.secure.wallet">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -12,14 +12,15 @@
     <!-- react-native-push-notification -->
 
     <application
-        android:name="com.cybavo.btc.wallet.MainApplication"
+        android:name="com.tips.secure.wallet.MainApplication"
         android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:allowBackup="false"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-        tools:replace="android:allowBackup">
+        tools:replace="android:allowBackup"
+        tools:ignore="MissingClass">
         <!-- facebook login -->
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -43,7 +44,7 @@
         </activity>
         <!-- facebook login -->
         <activity
-            android:name="com.cybavo.btc.wallet.MainActivity"
+            android:name="com.tips.secure.wallet.MainActivity"
             android:label="@string/app_name"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"

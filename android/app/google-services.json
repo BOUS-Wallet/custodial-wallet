@@ -1,93 +1,42 @@
 {
   "project_info": {
-    "project_number": "480003759927",
-    "project_id": "custodial-wallet",
-    "storage_bucket": "custodial-wallet.appspot.com"
+    "project_number": "3858377952",
+    "project_id": "tips-66488",
+    "storage_bucket": "tips-66488.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:480003759927:android:eca4e5f397cde6120384b2",
+        "mobilesdk_app_id": "1:3858377952:android:8052dc34f73429364c3485",
         "android_client_info": {
-          "package_name": "com.bous.wallet.secure"
+          "package_name": "com.tips.secure.wallet"
         }
       },
       "oauth_client": [
         {
-          "client_id": "480003759927-fr56v4iil33gt85budgi90l7vdtnhbe1.apps.googleusercontent.com",
+          "client_id": "3858377952-0mvc9i4o9735gkg7q4hvo1blt1mdoevo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.bous.wallet.secure",
+            "package_name": "com.tips.secure.wallet",
             "certificate_hash": "24259ee0bf7d41a8d79d598987e3abd540c66a7b"
           }
         },
         {
-          "client_id": "480003759927-v5qk4qbn8vnklehb34tged3f144d94gq.apps.googleusercontent.com",
+          "client_id": "3858377952-3dljov7dospim50k239fmgeqkgjsinjr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBpk_HmCcYNSmLbgAZ8suXwolY1uIUS3vM"
+          "current_key": "AIzaSyBJouB7mXmPrs2u0WJPRpuiC2UV553euf4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "480003759927-v5qk4qbn8vnklehb34tged3f144d94gq.apps.googleusercontent.com",
+              "client_id": "3858377952-3dljov7dospim50k239fmgeqkgjsinjr.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "480003759927-e9ipic3k4q9jse464s2ue9vv99bbv4b8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.bous.wallet.secure"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:480003759927:android:545fbe794cd931fc0384b2",
-        "android_client_info": {
-          "package_name": "com.cybavo.btc.wallet"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "480003759927-38cpgf6q8p6haehgki3mdncip1o3gapv.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.cybavo.btc.wallet",
-            "certificate_hash": "24259ee0bf7d41a8d79d598987e3abd540c66a7b"
-          }
-        },
-        {
-          "client_id": "480003759927-v5qk4qbn8vnklehb34tged3f144d94gq.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBpk_HmCcYNSmLbgAZ8suXwolY1uIUS3vM"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "480003759927-v5qk4qbn8vnklehb34tged3f144d94gq.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "480003759927-e9ipic3k4q9jse464s2ue9vv99bbv4b8.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.bous.wallet.secure"
-              }
             }
           ]
         }

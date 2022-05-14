@@ -1,4 +1,4 @@
-package com.cybavo.btc.wallet;
+package com.tips.secure.wallet;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
