@@ -73,8 +73,8 @@ const SignInScreen: () => React$Node = ({ theme }) => {
         flexDirection: 'column',
         justifyContent: 'space-between',
       }}>
-      <SvgXml
-        xml={getLoginBgSvg(width, height)}
+      <Image
+        source={require('../assets/image/bg_login.png')}
         style={{
           position: 'absolute',
           zIndex: 0,

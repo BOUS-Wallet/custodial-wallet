@@ -108,7 +108,7 @@ const InitializeScreen: () => React$Node = ({ theme }) => {
   }, [dispatch]);
   return (
     <View style={[Styles.bottomContainer, { alignItems: 'center' }]}>
-      <SvgXml xml={getLoginBgSvg(width, height)} style={styles.fullBg} />
+      <Image source={require('../assets/image/bg_login.png')} style={styles.fullBg} />
       <Animated.Image
         resizeMode="contain"
         source={require('../assets/image/splash.png')}

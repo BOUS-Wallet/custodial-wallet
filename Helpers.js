@@ -1440,6 +1440,8 @@ export function convertAmountFromRawNumber(
   return n.toFixed(n.decimalPlaces());
 }
 
+
+
 export function getLoginBgSvg(width, height) {
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
     <defs>
@@ -1466,7 +1468,8 @@ export function getLoginBgSvg(width, height) {
         </g>
     </g>
 </svg>`;
-}
+} 
+
 export function getWalletConnectSvg() {
   return `<svg width="512px" height="512px" viewBox="0 0 512 512">
     <defs></defs>
