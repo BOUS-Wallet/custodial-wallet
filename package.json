@@ -15,7 +15,7 @@
     ]
   },
   "dependencies": {
-    "@cybavo/react-native-wallet-service": "^1.2.206",
+    "@cybavo/react-native-wallet-service": "^1.2.220",
     "@invertase/react-native-apple-authentication": "1.0.0",
     "@react-native-community/async-storage": "^1.7.0",
     "@react-native-community/cameraroll": "^1.5.2",
@@ -121,6 +121,7 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.3.0",
     "jest": "^24.9.0",
+    "jetifier": "^2.0.0",
     "metro": "^0.57.0",
     "metro-core": "^0.57.0",
     "metro-react-native-babel-preset": "^0.59.0",
