@@ -136,7 +136,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.tips.secure.wallet"
+        applicationId "com.bous.secure.wallet"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode versionMajor * 1000000 + versionMinor * 10000 + gitVersion.version

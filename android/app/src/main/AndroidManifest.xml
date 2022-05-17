@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.tips.secure.wallet">
+    package="com.bous.secure.wallet">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -12,7 +12,7 @@
     <!-- react-native-push-notification -->
 
     <application
-        android:name="com.tips.secure.wallet.MainApplication"
+        android:name="com.bous.secure.wallet.MainApplication"
         android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -44,7 +44,7 @@
         </activity>
         <!-- facebook login -->
         <activity
-            android:name="com.tips.secure.wallet.MainActivity"
+            android:name="com.bous.secure.wallet.MainActivity"
             android:label="@string/app_name"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
