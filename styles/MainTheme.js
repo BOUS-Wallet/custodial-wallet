@@ -157,7 +157,7 @@ export const Theme = {
     primary: '#f7b603',
     primaryDisabled: 'rgba(201,154,24,0.4)',
     primary16: 'rgba(201,154,24,0.16)',
-    background: '#EFE30C',
+    background: '#000',
     backgroundPressed: 'rgba(255,255,255,0.04)',
     filterBgColor: 'rgba(255,255,255,0.08)',
     divider: 'rgba(255,255,255,0.1)',

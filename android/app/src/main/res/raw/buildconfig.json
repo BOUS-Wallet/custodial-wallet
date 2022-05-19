@@ -1,0 +1,15 @@
+{
+  "apiCode": {
+    "main": {"ios": "zDd0_xmsETHcerEW2j0zbA", "android": "zDd0_xmsETHcerEW2j0zbA"},
+    "test": {"ios": "zDd0_xmsETHcerEW2j0zbA", "android": "zDd0_xmsETHcerEW2j0zbA"}
+  },
+  "endpoint": {
+    "main": "https://vault.fidubit.global/v1/mw/",
+    "test":  "https://vault.fidubit.global/v1/mw/"
+  },
+  "GOOGLE_SIGN_IN_WEB_CLI_ID": "480003759927-v5qk4qbn8vnklehb34tged3f144d94gq.apps.googleusercontent.com",
+  "uniqueIds": ["<UNIQUE_IDS>"],
+  "TWITTER_CONSUMER_KEY": "<MY_TWITTER_CONSUMER_KEY>",
+  "TWITTER_CONSUMER_SECRET": "<My_TWITTER_CONSUMER_SECRET>",
+  "CHAIN_ID": 1
+}
