@@ -38,12 +38,12 @@ const SignInScreen: () => React$Node = ({ theme }) => {
   const [animOpacity, setAnimOpacity] = useState(new Animated.Value(0));
   const [translateY, setTranslateY] = useState(new Animated.Value(0));
   const iconInitMarginTop = height * 0.35;
-  const iconAfterMarginTop = -iconInitMarginTop * 0.55;
+  const iconAfterMarginTop = -iconInitMarginTop * 0.35;
   const dispatch = useDispatch();
   const startTranslateY = () => {
     Animated.timing(translateY, {
       toValue: iconAfterMarginTop,
-      duration: 500,
+      duration: 500,  
       easing: Easing.out(Easing.exp),
       useNativeDriver: true,
     }).start(() => {
@@ -90,7 +90,8 @@ const SignInScreen: () => React$Node = ({ theme }) => {
           style={{
             alignSelf: 'center',
             marginTop: iconInitMarginTop,
-            transform: [{ translateY }]
+            transform: [{ translateY }],
+            width: 150,
           }}
         />
       </View>
