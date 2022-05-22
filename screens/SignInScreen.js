@@ -91,7 +91,7 @@ const SignInScreen: () => React$Node = ({ theme }) => {
             alignSelf: 'center',
             marginTop: iconInitMarginTop,
             transform: [{ translateY }],
-            width: 150,
+            width: 100,
           }}
         />
       </View>

@@ -638,6 +638,7 @@ const AssetScreen: () => React$Node = ({ theme, navigation: { navigate } }) => {
                   <SvgXml
                     xml={ADD_SVG}
                     style={{
+                      color: '#ffffff',
                       tintColor: theme.colors.white35,
                       width: 24,
                       height: 24,
