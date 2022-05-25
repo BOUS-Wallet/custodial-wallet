@@ -93,6 +93,7 @@ const Dropdown: () => React$Node = ({
           style={{
             fontFamily: 'Avenir-Roman',
             fontSize: 12,
+            color:'#FFFF'
           }}>
           {currentSelect}
         </Text>

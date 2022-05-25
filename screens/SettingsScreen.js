@@ -52,6 +52,7 @@ import BottomActionMenu from '../components/BottomActionMenu';
 import NavigationService from '../NavigationService';
 import AssetPicker from '../components/AssetPicker';
 import BackgroundImage from '../components/BackgroundImage';
+import { color } from 'jimp';
 const {
   sdkInfo: { VERSION_NAME, VERSION_CODE, BUILD_TYPE },
 } = WalletSdk;
@@ -263,7 +264,7 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
                 <Text
                   numberOfLines={1}
                   ellipsizeMode="middle"
-                  style={[Styles.input, Theme.fonts.default.regular]}>
+                  style={[Styles.input, Theme.fonts.default.regular, {color:'#'}]}>
                   {userState.realName}
                 </Text>
               )}
@@ -318,6 +319,8 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
                     Styles.input,
                     { flex: 0 },
                     Theme.fonts.default.regular,
+                    {color:'#000000'}
+
                   ]}>
                   {I18n.t('walletconnect')}
                 </Text>
@@ -343,7 +346,7 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
                 style={[
                   Theme.fonts.default.medium,
                   {
-                    color: Theme.colors.primary,
+                    color: '#ffff',
                     fontSize: 14,
                     alignSelf: 'center',
                   },
@@ -358,6 +361,8 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
             Styles.secLabel,
             { marginTop: 15 },
             Theme.fonts.default.regular,
+            {color:'#000000'}
+
           ]}>
           {I18n.t('general')}
         </Text>
@@ -374,7 +379,7 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
             styles.listItemHorizontal,
             { justifyContent: 'space-between' },
           ]}>
-          <Text style={[Styles.input, Theme.fonts.default.regular]}>
+          <Text style={[Styles.input, Theme.fonts.default.regular, {color:'#000000'}]}>
             {I18n.t('language')}
           </Text>
           <View style={{ flexDirection: 'row', justifyContent: 'flex-end' }}>
@@ -383,6 +388,7 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
                 Styles.inputDesc,
                 { flex: 0, fontSize: 14 },
                 Theme.fonts.default.regular,
+                {color:'#000000'}
               ]}>
               {LOCALES[languageIndex]}
             </Text>
@@ -396,6 +402,8 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
             Styles.secLabel,
             { marginTop: 15 },
             Theme.fonts.default.regular,
+            {color:'#000000'}
+
           ]}>
           {I18n.t('security')}
         </Text>
@@ -403,10 +411,12 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
           onPress={() => navigate('SetupSecurityQuestion')}
           style={styles.listItemHorizontal}>
           <View style={{ flexDirection: 'column' }}>
-            <Text style={[Styles.input, Theme.fonts.default.regular]}>
+            <Text style={[Styles.input, Theme.fonts.default.regular],                {color:'#000000'}
+}>
               {I18n.t('setup_security_questions_up')}
             </Text>
-            <Text style={[Styles.inputDesc, Theme.fonts.default.regular]}>
+            <Text style={[Styles.inputDesc, Theme.fonts.default.regular],                {color:'#000000'}
+}>
               {I18n.t('setup_security_questions_desc')}
             </Text>
           </View>
@@ -416,7 +426,7 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
           onPress={_goChangePinCode}
           style={styles.listItemHorizontal}>
           <View style={{ flexDirection: 'column' }}>
-            <Text style={Styles.input}>{I18n.t('change_pin_code_up')}</Text>
+            <Text style={Styles.input, {color:'#000000', backgroundColor:Theme.colors.white35}}>{I18n.t('change_pin_code_up')}</Text>
             <Text style={[Styles.inputDesc, Theme.fonts.default.regular]}>
               {I18n.t('change_pin_code_desc')}
             </Text>
@@ -427,8 +437,8 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
           onPress={_fetchSecurityQuestions}
           style={styles.listItemHorizontal}>
           <View style={{ flexDirection: 'column' }}>
-            <Text style={Styles.input}>{I18n.t('forgot_pin_code_title')}</Text>
-            <Text style={[Styles.inputDesc, Theme.fonts.default.regular]}>
+            <Text style={Styles.input, {color:'#000000'}}>{I18n.t('forgot_pin_code_title')}</Text>
+            <Text style={[Styles.inputDesc, Theme.fonts.default.regular, {color:'#000000'}]}>
               {I18n.t('restore_pin_code_desc')}
             </Text>
           </View>
@@ -439,10 +449,10 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
           onPress={_onBioSettingPress}
           style={styles.listItemHorizontal}>
           <View style={{ flexDirection: 'column' }}>
-            <Text style={Styles.input}>
+            <Text style={Styles.input, {color:'#000000'}}>
               {I18n.t('transaction_auth_method')}
             </Text>
-            <Text style={[Styles.inputDesc, Theme.fonts.default.regular]}>
+            <Text style={[Styles.inputDesc, Theme.fonts.default.regular, {color:'#000000'}]}>
               {I18n.t(bioSettingSub)}
             </Text>
           </View>
@@ -457,6 +467,7 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
             Styles.secLabel,
             { marginTop: 15 },
             Theme.fonts.default.regular,
+            {color:'#000000'}
           ]}>
           {I18n.t('information')}
         </Text>
@@ -469,12 +480,12 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
               ),
                 I18n.t('issue_description_template');
             }}
-            style={styles.listItemHorizontal}>
+            style={styles.listItemHorizontal, {color:'#000000'}}>
             <View style={{ flexDirection: 'column' }}>
-              <Text style={[Styles.input, Theme.fonts.default.regular]}>
+              <Text style={[Styles.input, Theme.fonts.default.regular, {color:'#000000'}]}>
                 {I18n.t('report_issue')}
               </Text>
-              <Text style={[Styles.inputDesc, Theme.fonts.default.regular]}>
+              <Text style={[Styles.inputDesc, Theme.fonts.default.regular,{color:'#000000'}]}>
                 {I18n.t('report_issue_desc')}
               </Text>
             </View>
@@ -484,13 +495,14 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
           </TouchableOpacity>
         )}
         <View style={styles.listItemVertical}>
-          <Text style={[Styles.input, Theme.fonts.default.regular]}>
+          <Text style={[Styles.input, Theme.fonts.default.regular,{color:'#000000'}]}>
             {I18n.t('version')}
           </Text>
           <Text
             style={[
               Styles.inputDesc,
               Theme.fonts.default.regular,
+              {color:'#000000'}
             ]}>{`${VersionNumber.appVersion} / ${VERSION_NAME} (${VERSION_CODE}) - ${BUILD_TYPE}`}</Text>
         </View>
         <TouchableOpacity
@@ -500,6 +512,7 @@ const SettingsScreen: () => React$Node = ({ theme }) => {
             flex: 1,
             justifyContent: 'center',
             alignItems: 'center',
+            color:'#000000'
           }}
           onPress={() =>
             setResult({

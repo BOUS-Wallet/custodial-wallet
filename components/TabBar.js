@@ -358,7 +358,7 @@ class TabBar extends Component<Props, State> {
         onLayout={onTabLayout}>
         <Text
           style={[
-            { color: isTabActive ? activeTextColor : inactiveTextColor },
+            { color: isTabActive ? '#000000' : '#A5A5A5' },
             textStyle,
             isTabActive && activeTabTextStyle,
           ]}>
