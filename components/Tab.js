@@ -29,7 +29,7 @@ const Tab: () => React$Node = ({
   const textStyle = {
     color: styles.textColor,
     fontWeight: '600',
-    fontSize: 17,
+    fontSize: 16,
   };
   return (
     <TouchableOpacity
@@ -39,7 +39,7 @@ const Tab: () => React$Node = ({
       onLayout={onTabLayout}
       key={page}>
       <Animated.View style={containerStyle}>
-        <Animated.Text style={[textStyle, Theme.fonts.default.black]}>
+        <Animated.Text style={[textStyle, Theme.fonts.default.regular]}>
           {label}
         </Animated.Text>
       </Animated.View>
